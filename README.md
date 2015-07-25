@@ -1,2 +1,2 @@
 # zerdle
-This is a Yerdle clone
+This is a Yerdle clone made with Rails
