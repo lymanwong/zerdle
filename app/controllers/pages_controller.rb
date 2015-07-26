@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def posting
+  def postings
   end
 
   def mission

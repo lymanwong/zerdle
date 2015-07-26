@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root 'pages#landing'
 
   #adding posting page
-  get 'posting' => 'pages#posting'
+  get 'postings' => 'pages#postings'
 
   #adding mission page
   get 'mission' => 'pages#mission'
