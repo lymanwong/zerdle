@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def posting
   end
 
-  def about
+  def mission
   end
 
   def login

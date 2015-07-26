@@ -7,11 +7,31 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= link_to "Home", root_path %>
-<%= link_to "Mission", about_path %>
-<%= link_to "Login", login_path %>
-<%= link_to "Sign up", signup_path %>
-<%= yield %>
 
+  <%= link_to "Home", root_path %>
+  <%= link_to "Mission", mission_path %>
+  <%= link_to "Login", login_path %>
+  <%= link_to "Sign up", signup_path %>
+
+  <%= yield %>
+
+  <h3>Discover</h3>
+    <p>Get the App</p>
+    <p>Invite Friends</p>
+    <p>Support</p>
+    <p>Unshopping Challenge</p>
+    <p>Login</p>
+
+  <h3>About Us</h3>
+    <p>Mission</p>
+    <p>Press</p>
+    <p>Jobs</p>
+
+  <h3>Connect</h3>
+    <p>Facebook</p>
+    <p>Twitter</p>
+    <p>Instagram</p>
+    <p>Blog</p>
+  <h6>© 2015 Zerdle · 007 Bond Street, San Francisco, CA · Privacy & Terms</h6>
 </body>
 </html>

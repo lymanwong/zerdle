@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   #adding posting page
   get 'posting' => 'pages#posting'
 
-  #adding about page
-  get 'about' => 'pages#about'
+  #adding mission page
+  get 'mission' => 'pages#mission'
 
   #adding signup page
   get 'signup' => 'pages#signup'
