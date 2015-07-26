@@ -7,13 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= render 'layouts/header' %>
 
-  <%= link_to "Home", root_path %>
-  <%= link_to "Mission", mission_path %>
-  <%= link_to "Login", login_path %>
-  <%= link_to "Sign up", signup_path %>
-
-  <%= yield %>
+    <%= yield %>
 
   <h3>Discover</h3>
     <p>Get the App</p>
