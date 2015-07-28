@@ -1,3 +1,7 @@
-<h1>Sign up</h1>
-<p>Happiness awaits on the other side.</p>
-
+<div class='container'>
+  <% flash.each do |name, msg| %>
+     <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+  <% end %>
+  <h1>Sign up</h1>
+  <p>Happiness awaits on the other side.</p>
+</div>
