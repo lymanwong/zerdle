@@ -4,6 +4,13 @@ This is a Yerdle clone made with Rails
 
 Changelog:
 
+7/30
+add ability to add posts
+-post migration
+-posting page
+-new posting page
+-crud (resource) post ability
+
 7/29
 Tweaked devise forms w/form control
 Updated button styling

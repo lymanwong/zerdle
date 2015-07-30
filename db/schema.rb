@@ -11,7 +11,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150729041527) do
+ActiveRecord::Schema.define(version: 20150730152918) do
+
+  create_table "postings", force: :cascade do |t|
+    t.string   "title"
+    t.string   "description"
+    t.string   "category"
+    t.string   "condition"
+    t.integer  "price"
+    t.boolean  "offer_shipping"
+    t.string   "shipping_size"
+    t.boolean  "offer_local_pickup"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string   "title"
+    t.string   "description"
+    t.string   "category"
+    t.string   "condition"
+    t.integer  "price"
+    t.boolean  "offer_shipping"
+    t.string   "shipping_size"
+    t.boolean  "offer_local_pickup"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

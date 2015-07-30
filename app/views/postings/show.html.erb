@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @posting.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @posting.description %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @posting.category %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @posting.condition %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @posting.price %>
+</p>
+
+<p>
+  <strong>Offer shipping:</strong>
+  <%= @posting.offer_shipping %>
+</p>
+
+<p>
+  <strong>Shipping size:</strong>
+  <%= @posting.shipping_size %>
+</p>
+
+<p>
+  <strong>Offer local pickup:</strong>
+  <%= @posting.offer_local_pickup %>
+</p>
+
+<%= link_to 'Edit', edit_posting_path(@posting) %> |
+<%= link_to 'Back', postings_path %>

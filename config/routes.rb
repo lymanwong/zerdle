@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
+  resources :postings
   devise_for :users
   #adding home page
   root 'pages#landing'
-
-  #adding posting page
-  get 'postings' => 'pages#postings'
 
   #adding mission page
   get 'mission' => 'pages#mission'

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  category: MyString
+  condition: MyString
+  price: 1
+  offer_shipping: false
+  shipping_size: MyString
+  offer_local_pickup: false
+
+two:
+  title: MyString
+  description: MyString
+  category: MyString
+  condition: MyString
+  price: 1
+  offer_shipping: false
+  shipping_size: MyString
+  offer_local_pickup: false
