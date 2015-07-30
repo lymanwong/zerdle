@@ -3,6 +3,11 @@
 This is a Yerdle clone made with Rails
 
 Changelog:
+
+7/29
+Tweaked devise forms w/form control
+Updated button styling
+
 7/28
 push users to heroku and migrated
 add new user signup and signin
