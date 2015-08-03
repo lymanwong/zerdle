@@ -40,5 +40,7 @@
   <%= @posting.offer_local_pickup %>
 </p>
 
-<%= link_to 'Edit', edit_posting_path(@posting) %> |
+<% if @posting.user == current_user %>
+  <%= link_to 'Edit', edit_posting_path(@posting) %> |
+<% end %>
 <%= link_to 'Back', postings_path %>

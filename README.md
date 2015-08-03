@@ -3,6 +3,9 @@
 This is a Yerdle clone made with Rails
 
 Changelog:
+8/2
+add relationship between user and pin
+
 
 7/30
 add ability to add posts
