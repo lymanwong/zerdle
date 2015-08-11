@@ -40,7 +40,7 @@ class PostingsController < ApplicationController
 
   private
     def set_posting
-      @posting = Posting.find(params[:id])
+      @posting = Posting.find_by(id: params[:id])
     end
 
     def correct_user
