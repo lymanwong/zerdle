@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>Image</th>
       <th>Title</th>
       <th>Description</th>
       <th>Giver</th>
@@ -21,6 +22,7 @@
   <tbody>
     <% @postings.each do |posting| %>
       <tr>
+        <td><%= image_tag posting.image.url(:medium) %></td>
         <td><%= posting.title %></td>
         <td><%= posting.description %></td>
         <td><%= posting.user.first_name %> <%= posting.user.last_name %></td>

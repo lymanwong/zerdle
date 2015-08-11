@@ -49,6 +49,6 @@ class PostingsController < ApplicationController
     end
 
     def posting_params
-      params.require(:posting).permit(:title, :description, :category, :condition, :price, :offer_shipping, :shipping_size, :offer_local_pickup)
+      params.require(:posting).permit(:image, :title, :description, :category, :condition, :price, :offer_shipping, :shipping_size, :offer_local_pickup)
     end
 end
