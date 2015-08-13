@@ -3,6 +3,12 @@
 This is a Yerdle clone made with Rails
 
 Changelog:
+8/12
+add aws
+
+8/10
+add paperclip gem
+
 8/2
 add relationship between user and pin
 
